@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	let capitals = {
+ "Бразилія": 2600000,
+ "Київ": 2884000,
+ "Париж": 2161000,
+ "Варшава": 1765000,
+ "Делі": 2909000,
+ "Берлін": 3645000,
+ "Каїр": 11200000,
+ "Мехіко": 8855000,
+ "Лондон": 8982000,
+
+}
+
+let sortByName = Object.keys(capitals).sort();
+
+    // Виводимо відсортові столиці за алфавітом
+    for (let capital of sortByName) {
+    	document.write(capital + ": " + capitals[capital] + "<br>");
+    }
+</script>
+</head>
+<body>
